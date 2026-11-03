@@ -6,7 +6,7 @@ Analysis code, analysis plans and result logs for the manuscript
 
 The repository reproduces every number, figure and table of the manuscript from public data.
 
-Archived version: [10.5281/zenodo.23901478](https://doi.org/10.5281/zenodo.23901478) (v1.0.0).
+Archived version: [10.5281/zenodo.23901927](https://doi.org/10.5281/zenodo.23901927) (v1.0.1).
 
 ## Study design
 
