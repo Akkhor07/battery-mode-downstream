@@ -6,6 +6,8 @@ Analysis code, analysis plans and result logs for the manuscript
 
 The repository reproduces every number, figure and table of the manuscript from public data.
 
+Archived version: [10.5281/zenodo.23901478](https://doi.org/10.5281/zenodo.23901478) (v1.0.0).
+
 ## Main results
 
 **Degradation modes do not improve capacity forecasts.** The figure shows forecast error with modes relative to capacity alone, where values below 1 mean the modes help; the grey band is ±10 %. Panel (a) uses reference modes from whole-curve fits on 40 NMC811, 19 NMC532 and 20 LFP cells. Panel (b) uses modes estimated from partial windows, which are worse in every setup.
