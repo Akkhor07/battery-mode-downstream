@@ -11,9 +11,9 @@ from common import FIGS, HERE
 OUT = HERE / "overleaf" / "supplementary.tex"
 TABLES = [
     ("tableS1_dubarry", "Table S1. Quasi-OCV fits of synthetic C/25 curves with known modes (Dubarry), per degradation set "
-     "(backs Fig.~4a)."),
-    ("tableS2_sensitivity", "Table S2. Sensitivity of the conclusions to reference-mode errors, per scenario (backs Fig.~4b, c)."),
-    ("tableS3_resistance", "Table S3. Resistance-growth prediction for every reference definition and split (backs Fig.~5)."),
+     "(backs Fig.~5a)."),
+    ("tableS2_sensitivity", "Table S2. Sensitivity of the conclusions to reference-mode errors, per scenario (backs Fig.~5b, c)."),
+    ("tableS3_resistance", "Table S3. Resistance-growth prediction for every reference definition and split (backs Fig.~6)."),
     ("tableS4_reference_fits", "Table S4. Reference fits and the quality rule."),
     ("tableS5_lui_faithful", "Table S5. Faithful Lui et al.\\ forecast with bounded coefficients."),
     ("tableS6_ratio", "Table S6. The LAM$_\\mathrm{NE}$:LLI ratio as an early warning of a capacity knee."),
