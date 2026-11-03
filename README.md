@@ -6,6 +6,28 @@ Analysis code, analysis plans and result logs for the manuscript
 
 The repository reproduces every number, figure and table of the manuscript from public data.
 
+## Main results
+
+**Degradation modes do not improve capacity forecasts.** The figure shows forecast error with modes relative to capacity alone, where values below 1 mean the modes help; the grey band is ±10 %. Panel (a) uses reference modes from whole-curve fits on 40 NMC811, 19 NMC532 and 20 LFP cells. Panel (b) uses modes estimated from partial windows, which are worse in every setup.
+
+![Figure 1](checkup-design/paper/figs/fig1_forecast.png)
+
+**Why: within a cell, capacity fade tracks lithium loss.** Panels (a–c) plot fade against reference LLI for each cell. Panel (d) is a positive control on synthetic cells: modes help only when their error is below about 1 pp, while partial-window estimates have 3–5 pp.
+
+![Figure 2](checkup-design/paper/figs/fig2_mechanism.png)
+
+**Check-up design: the Cramér–Rao bound does not rank window designs, but a label-free misfit rule does.** The rule was fixed before testing and was confirmed on 24 held-out cells: it matched random wide windows with 30 % less check-up time.
+
+![Figure 3](checkup-design/paper/figs/fig3_design.png)
+
+**How good are the reference modes?** Panel (a) fits synthetic curves with known modes: LLI is recovered to about 2 pp, LAM_NE is not. Panels (b, c) perturb the references by errors of that size, which neither creates a forecasting gain nor removes the window rule's advantage over random windows.
+
+![Figure 4](checkup-design/paper/figs/fig4_references.png)
+
+**Resistance growth (exploratory).** Whether a gain appears depends on how the reference modes are defined.
+
+![Figure 5](checkup-design/paper/figs/fig5_resistance.png)
+
 ## Layout
 
 | Folder | Content |
