@@ -50,9 +50,9 @@ m2 = box(24, 12.5, 19, 8, "Estimated modes", "two partial windows, two\nC-rates;
 
 # analyses
 a1 = box(47, 29.5, 26, 11, "1  Life forecasting",
-         "modes vs capacity extrapolation: mode\nmap, half-cell and faithful Lui et al.,\ncross-cell, mechanism switch; knee\nindicator", ORANGE)
+         "modes vs capacity extrapolation:\nmode map, half-cell and faithful\nLui et al., cross-cell, mechanism\nswitch; knee indicator", ORANGE)
 a2 = box(47, 16, 26, 11, "2  Check-up window design",
-         "50 window pairs: Cramér–Rao and Bayesian\nbounds vs label-free misfit; rule fixed\non 16 cells, confirmed on 24 held-out\ncells", ORANGE)
+         "50 window pairs: Cramér–Rao and\nBayesian bounds vs label-free misfit;\nrule fixed on 16 cells, confirmed on\n24 held-out cells", ORANGE)
 a3 = box(47, 2.0, 26, 11.5, "3  Reference audit",
          "fits of curves with known modes; forecasts\nand window rule repeated with references\nperturbed by the errors found\n(6 scenarios $\\times$ 200 draws)", ORANGE)
 
