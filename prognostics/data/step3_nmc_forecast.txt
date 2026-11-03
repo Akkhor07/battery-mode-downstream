@@ -1,0 +1,40 @@
+NMC per-cell extrapolation in throughput: mean SOH RMSE [pp] over later RPTs (vs capacity, 95 % CI)
+
+  expt5, observed up to RPT 4 (3 estimate check-ups, 8 cells)
+    capacity        4.67
+    capacity_all    4.90  (-0.07..+0.56)
+    modes_cnn_dr   14.77  (-0.87..+26.44)
+    modes_pinn_lm   8.11  (-3.12..+15.28)
+    modes_ref       6.29  (-1.71..+7.49)
+
+  expt5, observed up to RPT 6 (4 estimate check-ups, 8 cells)
+    capacity        1.75
+    capacity_all    2.16  (+0.17..+0.68)
+    modes_cnn_dr    7.86  (+3.67..+8.68)
+    modes_pinn_lm   2.78  (-0.67..+3.26)
+    modes_ref       1.44  (-0.94..+0.24)
+
+  expt4, observed up to RPT 4 (3 estimate check-ups, 8 cells)
+    capacity        4.17
+    capacity_all    4.28  (-0.00..+0.20)
+    modes_cnn_dr    6.10  (-0.54..+4.30)
+    modes_pinn_lm   5.61  (+0.04..+3.63)
+    modes_ref       4.23  (-0.21..+0.29)
+
+  expt1, observed up to RPT 6 (4 estimate check-ups, 9 cells)
+    capacity        5.53
+    capacity_all    6.53  (-0.40..+2.30)
+    modes_pinn_lm   7.82  (+0.71..+3.75)
+    modes_ref       5.21  (-0.72..+0.05)
+
+  expt2, observed up to RPT 6 (4 estimate check-ups, 6 cells)
+    capacity        0.64
+    capacity_all    0.61  (-0.21..+0.15)
+    modes_pinn_lm   3.55  (+1.12..+5.51)
+    modes_ref       1.10  (+0.07..+0.84)
+
+  expt3, observed up to RPT 6 (4 estimate check-ups, 9 cells)
+    capacity        2.92
+    capacity_all    2.57  (-0.71..-0.07)
+    modes_pinn_lm   2.91  (-0.61..+0.54)
+    modes_ref       3.04  (-0.37..+0.66)

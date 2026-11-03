@@ -1,0 +1,7 @@
+Stanford M50T: 10 cells, 101 C/20 check-ups, median fit 11.7 mV, failing 23; cells with every check-up valid 1
+  check-ups per valid cell: V5 4
+  within-cell R^2 of fade on LLI: 0.943 (median)
+  primary k=5: no cell has enough check-ups
+  primary k=5: no cell has enough check-ups
+  secondary k=3: no cell has enough check-ups
+  secondary k=3: no cell has enough check-ups

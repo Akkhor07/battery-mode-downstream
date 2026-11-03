@@ -1,0 +1,8 @@
+all 40 cells: 224 check-ups, corr(dR, 1 - SOH) = 0.35
+  capacity               LOCO MAE   7.3 % of R0 (vs capacity +0.0..+0.0)
+  capacity + est modes   LOCO MAE  10.8 % of R0 (vs capacity +2.0..+4.7)
+  capacity + ref modes   LOCO MAE  10.3 % of R0 (vs capacity +1.1..+4.6)
+without expt5A: 217 check-ups, corr(dR, 1 - SOH) = 0.89
+  capacity               LOCO MAE   4.4 % of R0 (vs capacity +0.0..+0.0)
+  capacity + est modes   LOCO MAE   3.6 % of R0 (vs capacity -1.4..-0.2)
+  capacity + ref modes   LOCO MAE   3.2 % of R0 (vs capacity -1.7..-0.6)

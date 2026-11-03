@@ -1,0 +1,33 @@
+Michigan pouch cells: quasi-OCV fits with the Mohtat2020 OCPs
+  charge: 248 check-ups, median fit 3.6 mV, failing 61, cells with every check-up valid 4/21
+  discharge: 241 check-ups, median fit 6.3 mV, failing 0, cells with every check-up valid 21/21
+
+=== reference modes from the C/20 discharge (21 cells) ===
+  within-cell R^2 of fade on LLI: 1.000 (median)
+  primary k=5 sqrt modes_map (n=19)  capacity   3.13  modes   3.19  change   +2% | cells: 95% [-3%,+6%] best gain 2.2% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-3%,+7%] best gain 2.8% no-useful-gain@5/10/20% Y/Y/Y
+  primary k=5 sqrt modes_yu (n=19)   capacity   3.13  modes   3.59  change  +15% | cells: 95% [-3%,+33%] best gain 0.5% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-7%,+36%] best gain 3.3% no-useful-gain@5/10/20% Y/Y/Y
+    knee cells (2): capacity 5.07, modes_map 4.75, modes_yu 3.15 | no knee (17): capacity 2.91, modes_map 3.00, modes_yu 3.64
+  primary k=5 power modes_map (n=19) capacity   3.63  modes   3.80  change   +5% | cells: 95% [-3%,+15%] best gain 2.1% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-6%,+17%] best gain 4.2% no-useful-gain@5/10/20% Y/Y/Y
+  primary k=5 power modes_yu (n=19)  capacity   3.63  modes   4.11  change  +13% | cells: 95% [-4%,+34%] best gain 1.8% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-9%,+40%] best gain 5.5% no-useful-gain@5/10/20% n/Y/Y
+    knee cells (2): capacity 4.54, modes_map 3.86, modes_yu 2.79 | no knee (17): capacity 3.52, modes_map 3.79, modes_yu 4.26
+  secondary k=3 sqrt modes_map (n=21) capacity   4.12  modes   4.09  change   -1% | cells: 95% [-5%,+4%] best gain 4.3% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-6%,+5%] best gain 5.4% no-useful-gain@5/10/20% n/Y/Y
+  secondary k=3 sqrt modes_yu (n=21) capacity   4.12  modes   4.62  change  +12% | cells: 95% [+1%,+26%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+27%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+    knee cells (2): capacity 5.96, modes_map 6.08, modes_yu 4.72 | no knee (19): capacity 3.92, modes_map 3.88, modes_yu 4.61
+  secondary k=3 power modes_map (n=21) capacity   7.36  modes   7.63  change   +4% | cells: 95% [+0%,+7%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-0%,+8%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  secondary k=3 power modes_yu (n=21) capacity   7.36  modes   7.01  change   -5% | cells: 95% [-23%,+9%] best gain 19.1% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-29%,+11%] best gain 23.7% no-useful-gain@5/10/20% n/n/n
+    knee cells (2): capacity 4.51, modes_map 4.48, modes_yu 3.18 | no knee (19): capacity 7.66, modes_map 7.96, modes_yu 7.42
+
+=== reference modes from the C/20 charge (4 cells) ===
+  within-cell R^2 of fade on LLI: 0.993 (median)
+  primary k=5 sqrt modes_map (n=4)   capacity   2.44  modes   3.02  change  +24% | cells: 95% [-54%,+76%] best gain 26.4% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-41%,+89%] best gain 35.3% no-useful-gain@5/10/20% n/n/n
+  primary k=5 sqrt modes_yu (n=4)    capacity   2.44  modes   3.20  change  +31% | cells: 95% [+4%,+63%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-4%,+79%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+    knee cells (0): capacity nan, modes_map nan, modes_yu nan | no knee (4): capacity 2.44, modes_map 3.02, modes_yu 3.20
+  primary k=5 power modes_map (n=4)  capacity   2.48  modes   3.17  change  +28% | cells: 95% [-83%,+97%] best gain 40.9% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-52%,+97%] best gain 52.0% no-useful-gain@5/10/20% n/n/n
+  primary k=5 power modes_yu (n=4)   capacity   2.48  modes   2.91  change  +18% | cells: 95% [-25%,+49%] best gain 18.9% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-11%,+46%] best gain 10.5% no-useful-gain@5/10/20% n/n/Y
+    knee cells (0): capacity nan, modes_map nan, modes_yu nan | no knee (4): capacity 2.48, modes_map 3.17, modes_yu 2.91
+  secondary k=3 sqrt modes_map (n=4) capacity   4.01  modes   5.38  change  +34% | cells: 95% [-28%,+97%] best gain 27.7% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-28%,+97%] best gain 13.6% no-useful-gain@5/10/20% n/n/Y
+  secondary k=3 sqrt modes_yu (n=4)  capacity   4.01  modes   6.74  change  +68% | cells: 95% [+16%,+122%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-8%,+118%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+    knee cells (0): capacity nan, modes_map nan, modes_yu nan | no knee (4): capacity 4.01, modes_map 5.38, modes_yu 6.74
+  secondary k=3 power modes_map (n=4) capacity   7.32  modes   6.81  change   -7% | cells: 95% [-104%,+57%] best gain 93.5% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-75%,+49%] best gain 70.6% no-useful-gain@5/10/20% n/n/n
+  secondary k=3 power modes_yu (n=4) capacity   7.32  modes   3.63  change  -50% | cells: 95% [-201%,+41%] best gain 190.5% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-164%,+30%] best gain 150.7% no-useful-gain@5/10/20% n/n/n
+    knee cells (0): capacity nan, modes_map nan, modes_yu nan | no knee (4): capacity 7.32, modes_map 6.81, modes_yu 3.63

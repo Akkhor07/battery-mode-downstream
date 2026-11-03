@@ -1,0 +1,7 @@
+  none  rule - random: median -1.33 pp [-1.33, -1.33], non-inferior in 100.0 % | rule - fixed: median -1.49 pp [-1.49, -1.49], non-inferior in 100.0 % (fixed design changed in 0 %)
+  N1    rule - random: median -1.32 pp [-1.37, -1.27], non-inferior in 100.0 % | rule - fixed: median -1.47 pp [-1.53, -1.40], non-inferior in 100.0 % (fixed design changed in 0 %)
+  N2    rule - random: median -1.27 pp [-1.37, -1.17], non-inferior in 100.0 % | rule - fixed: median -1.42 pp [-1.54, -1.28], non-inferior in  99.5 % (fixed design changed in 0 %)
+  SC    rule - random: median -1.31 pp [-1.40, -1.22], non-inferior in 100.0 % | rule - fixed: median -1.47 pp [-1.63, -1.27], non-inferior in  96.0 % (fixed design changed in 0 %)
+  LK    rule - random: median -1.13 pp [-1.13, -1.13], non-inferior in 100.0 % | rule - fixed: median -0.74 pp [-0.74, -0.74], non-inferior in   0.0 % (fixed design changed in 100 %)
+  KD    rule - random: median -1.27 pp [-1.37, -1.20], non-inferior in 100.0 % | rule - fixed: median -1.31 pp [-1.41, -1.22], non-inferior in  90.5 % (fixed design changed in 0 %)
+  ALL   rule - random: median -1.23 pp [-1.33, -1.08], non-inferior in 100.0 % | rule - fixed: median -1.27 pp [-1.46, -0.99], non-inferior in  79.5 % (fixed design changed in 1 %)

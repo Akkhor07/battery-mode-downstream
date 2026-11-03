@@ -1,0 +1,69 @@
+Equivalence margin: a useful gain is >= 10% of the capacity error
+
+LFP extrapolation, curve 'sqrt' (20 cells): mean change vs capacity / best plausible gain
+  N_obs  400 modes_ref       err_80      capacity   344.5  change     -4%  best gain 10.5%  -> gain not excluded
+  N_obs  400 modes_ref       soh_rmse_pp capacity    12.5  change     -6%  best gain 16.2%  -> gain not excluded
+  N_obs  400 modes_pinn_enc  err_80      capacity   344.5  change  +1690%  best gain  0.0%  -> no useful gain
+  N_obs  400 modes_pinn_enc  soh_rmse_pp capacity    12.5  change   +445%  best gain  0.0%  -> no useful gain
+  N_obs  600 modes_ref       err_80      capacity   215.3  change     -2%  best gain  7.7%  -> no useful gain
+  N_obs  600 modes_ref       soh_rmse_pp capacity     6.3  change     +5%  best gain  3.4%  -> no useful gain
+  N_obs  600 modes_pinn_enc  err_80      capacity   215.3  change  +3115%  best gain  0.0%  -> no useful gain
+  N_obs  600 modes_pinn_enc  soh_rmse_pp capacity     6.3  change   +395%  best gain  0.0%  -> no useful gain
+  N_obs  800 modes_ref       err_80      capacity   121.2  change     +1%  best gain  5.7%  -> no useful gain
+  N_obs  800 modes_ref       soh_rmse_pp capacity     4.3  change     +6%  best gain  3.4%  -> no useful gain
+  N_obs  800 modes_pinn_enc  err_80      capacity   121.2  change  +4941%  best gain  0.0%  -> no useful gain
+  N_obs  800 modes_pinn_enc  soh_rmse_pp capacity     4.3  change   +478%  best gain  0.0%  -> no useful gain
+
+NMC extrapolation, curve 'sqrt' (6-9 cells per experiment): SOH RMSE
+  expt5 to RPT 4 modes_ref       capacity  4.67 pp  change    +35%  best gain 34.3%  -> gain not excluded
+  expt5 to RPT 4 modes_pinn_lm   capacity  4.67 pp  change    +73%  best gain 63.4%  -> gain not excluded
+  expt5 to RPT 6 modes_ref       capacity  1.75 pp  change    -17%  best gain 48.6%  -> gain not excluded
+  expt5 to RPT 6 modes_pinn_lm   capacity  1.75 pp  change    +61%  best gain 26.5%  -> gain not excluded
+  expt4 to RPT 4 modes_ref       capacity  4.17 pp  change     +2%  best gain  4.3%  -> no useful gain
+  expt4 to RPT 4 modes_pinn_lm   capacity  4.17 pp  change    +35%  best gain  0.0%  -> no useful gain
+  expt1 to RPT 6 modes_ref       capacity  5.53 pp  change     -6%  best gain 12.0%  -> gain not excluded
+  expt1 to RPT 6 modes_pinn_lm   capacity  5.53 pp  change    +41%  best gain  0.0%  -> no useful gain
+  expt2 to RPT 6 modes_ref       capacity  0.64 pp  change    +72%  best gain  0.0%  -> no useful gain
+  expt2 to RPT 6 modes_pinn_lm   capacity  0.64 pp  change   +451%  best gain  0.0%  -> no useful gain
+  expt3 to RPT 6 modes_ref       capacity  2.92 pp  change     +4%  best gain 10.6%  -> gain not excluded
+  expt3 to RPT 6 modes_pinn_lm   capacity  2.92 pp  change     -0%  best gain 17.6%  -> gain not excluded
+  pooled (40)    modes_ref       capacity  3.18 pp  change     -1%  best gain  6.7%  -> no useful gain
+  pooled (40)    modes_pinn_lm   capacity  3.18 pp  change    +45%  best gain  0.0%  -> no useful gain
+
+LFP extrapolation, curve 'power' (20 cells): mean change vs capacity / best plausible gain
+  N_obs  400 modes_ref       err_80      capacity   361.4  change   +509%  best gain  8.3%  -> no useful gain
+  N_obs  400 modes_ref       soh_rmse_pp capacity    64.2  change    -57%  best gain 192.1%  -> gain not excluded
+  N_obs  400 modes_pinn_enc  err_80      capacity   361.4  change  +1168%  best gain  0.0%  -> no useful gain
+  N_obs  400 modes_pinn_enc  soh_rmse_pp capacity    64.2  change  +1605%  best gain  0.0%  -> no useful gain
+  N_obs  600 modes_ref       err_80      capacity   202.9  change     -2%  best gain 18.6%  -> gain not excluded
+  N_obs  600 modes_ref       soh_rmse_pp capacity     9.3  change     +3%  best gain 43.6%  -> gain not excluded
+  N_obs  600 modes_pinn_enc  err_80      capacity   202.9  change  +1411%  best gain  0.0%  -> no useful gain
+  N_obs  600 modes_pinn_enc  soh_rmse_pp capacity     9.3  change   +807%  best gain  0.0%  -> no useful gain
+  N_obs  800 modes_ref       err_80      capacity   118.4  change     -7%  best gain 22.9%  -> gain not excluded
+  N_obs  800 modes_ref       soh_rmse_pp capacity     6.8  change     +8%  best gain 22.6%  -> gain not excluded
+  N_obs  800 modes_pinn_enc  err_80      capacity   118.4  change  +1407%  best gain  0.0%  -> no useful gain
+  N_obs  800 modes_pinn_enc  soh_rmse_pp capacity     6.8  change   +948%  best gain  0.0%  -> no useful gain
+
+NMC extrapolation, curve 'power' (6-9 cells per experiment): SOH RMSE
+  expt5 to RPT 4 modes_ref       capacity  3.72 pp  change     +9%  best gain 32.2%  -> gain not excluded
+  expt5 to RPT 4 modes_pinn_lm   capacity  3.72 pp  change     -5%  best gain 66.6%  -> gain not excluded
+  expt5 to RPT 6 modes_ref       capacity  1.60 pp  change    -12%  best gain 38.5%  -> gain not excluded
+  expt5 to RPT 6 modes_pinn_lm   capacity  1.60 pp  change    +74%  best gain 14.5%  -> gain not excluded
+  expt4 to RPT 4 modes_ref       capacity  4.14 pp  change     -3%  best gain  8.3%  -> no useful gain
+  expt4 to RPT 4 modes_pinn_lm   capacity  4.14 pp  change    +25%  best gain  0.0%  -> no useful gain
+  expt1 to RPT 6 modes_ref       capacity  5.45 pp  change     +3%  best gain  3.7%  -> no useful gain
+  expt1 to RPT 6 modes_pinn_lm   capacity  5.45 pp  change    +45%  best gain  0.0%  -> no useful gain
+  expt2 to RPT 6 modes_ref       capacity  0.53 pp  change    +78%  best gain  0.0%  -> no useful gain
+  expt2 to RPT 6 modes_pinn_lm   capacity  0.53 pp  change   +358%  best gain  0.0%  -> no useful gain
+  expt3 to RPT 6 modes_ref       capacity  3.13 pp  change    +11%  best gain  8.0%  -> no useful gain
+  expt3 to RPT 6 modes_pinn_lm   capacity  3.13 pp  change     -2%  best gain 19.5%  -> gain not excluded
+  pooled (40)    modes_ref       capacity  3.16 pp  change     +4%  best gain  2.6%  -> no useful gain
+  pooled (40)    modes_pinn_lm   capacity  3.16 pp  change    +40%  best gain  0.0%  -> no useful gain
+
+NMC 0.1 s resistance growth (39 cells, without expt5A)
+  capacity + est modes   change   -19%  best gain 30.5%  -> gain not excluded
+  capacity + ref modes   change   -25%  best gain 36.2%  -> gain not excluded
+
+Share of capacity fade (1 - SOH) explained by the reference modes, pooled R^2 [within-cell median]
+  LFP: LLI 0.998 [1.000]; LAM_NE 0.870 [0.947]; LLI+LAM_NE 0.999 [1.000]
+  NMC: LLI 0.976 [0.995]; LAM_PE 0.689 [0.884]; LAM_NE 0.879 [0.976]; LLI+LAM_PE+LAM_NE 0.977 [0.998]

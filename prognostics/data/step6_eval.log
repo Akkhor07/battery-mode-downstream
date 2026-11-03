@@ -1,0 +1,10 @@
+expt1 seed 0: 62 check-ups, 2480 pairs
+expt1 seed 1: 62 check-ups, 2480 pairs
+expt1 seed 2: 62 check-ups, 2480 pairs
+expt2 seed 0: 42 check-ups, 1680 pairs
+expt2 seed 1: 42 check-ups, 1680 pairs
+expt2 seed 2: 42 check-ups, 1680 pairs
+expt3 seed 0: 56 check-ups, 2240 pairs
+expt3 seed 1: 56 check-ups, 2240 pairs
+expt3 seed 2: 56 check-ups, 2240 pairs
+added {'expt1': 9, 'expt2': 6, 'expt3': 9} cells, 160 check-ups with estimates

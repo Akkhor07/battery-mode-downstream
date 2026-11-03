@@ -1,0 +1,30 @@
+A. Faithful Lui et al. forecast (reference modes), SOH RMSE [pp] over later check-ups
+
+Kirkaldy NMC: 40 cells
+  config 3 (bounded power), unanchored (n=40/40) capacity   3.96  modes   6.18  change  +56% | cells: 95% [+31%,+83%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+31%,+84%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  config 3 (bounded power), anchored (n=40/40) capacity   3.96  modes   4.18  change   +5% | cells: 95% [-10%,+23%] best gain 7.3% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-9%,+25%] best gain 7.3% no-useful-gain@5/10/20% n/Y/Y
+  config 2 (bounded dbl-exp), unanchored (n=40/40) capacity   4.44  modes   6.41  change  +44% | cells: 95% [+27%,+63%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+24%,+68%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  config 2 (bounded dbl-exp), anchored (n=40/40) capacity   4.44  modes   4.76  change   +7% | cells: 95% [-6%,+20%] best gain 3.6% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-12%,+30%] best gain 9.8% no-useful-gain@5/10/20% n/Y/Y
+  unbounded power, unanchored (n=40/40) capacity   3.41  modes   5.34  change  +56% | cells: 95% [+32%,+82%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+28%,+88%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  unbounded power, anchored (n=40/40) capacity   3.41  modes   3.76  change  +10% | cells: 95% [-7%,+31%] best gain 5.0% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-11%,+39%] best gain 8.4% no-useful-gain@5/10/20% n/Y/Y
+
+Wheeler LFP: 20 cells
+  config 3 (bounded power), unanchored (n=20/20) capacity   5.80  modes   6.36  change  +10% | cells: 95% [-23%,+45%] best gain 18.1% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-30%,+63%] best gain 24.2% no-useful-gain@5/10/20% n/n/n
+  config 3 (bounded power), anchored (n=20/20) capacity   5.80  modes   6.40  change  +10% | cells: 95% [-23%,+48%] best gain 18.0% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-30%,+62%] best gain 23.9% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), unanchored (n=20/20) capacity   9.14  modes  11.19  change  +22% | cells: 95% [-11%,+75%] best gain 7.7% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-13%,+87%] best gain 8.7% no-useful-gain@5/10/20% n/Y/Y
+  config 2 (bounded dbl-exp), anchored (n=20/20) capacity   9.14  modes  11.21  change  +23% | cells: 95% [-12%,+75%] best gain 7.6% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-13%,+90%] best gain 9.0% no-useful-gain@5/10/20% n/Y/Y
+  unbounded power, unanchored (n=20/20) capacity   5.80  modes  13.52  change +133% | cells: 95% [+15%,+290%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-16%,+348%] best gain 4.4% no-useful-gain@5/10/20% Y/Y/Y
+  unbounded power, anchored (n=20/20) capacity   5.80  modes  13.62  change +135% | cells: 95% [+15%,+293%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-17%,+340%] best gain 7.1% no-useful-gain@5/10/20% n/Y/Y
+
+Michigan NMC: 21 cells
+  config 3 (bounded power), unanchored (n=19/19) capacity   2.34  modes   2.35  change   +1% | cells: 95% [-30%,+32%] best gain 25.8% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-33%,+33%] best gain 28.2% no-useful-gain@5/10/20% n/n/n
+  config 3 (bounded power), anchored (n=19/19) capacity   2.34  modes   2.04  change  -13% | cells: 95% [-38%,+10%] best gain 33.2% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-43%,+13%] best gain 37.2% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), unanchored (n=14/19) capacity   5.26  modes   4.29  change  -18% | cells: 95% [-31%,-7%] best gain 28.8% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-35%,-4%] best gain 32.7% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), anchored (n=14/19) capacity   5.26  modes   4.33  change  -18% | cells: 95% [-32%,-6%] best gain 29.7% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-38%,-5%] best gain 33.7% no-useful-gain@5/10/20% n/n/n
+  unbounded power, unanchored (n=19/19) capacity   1.97  modes   2.44  change  +24% | cells: 95% [-21%,+64%] best gain 13.4% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-30%,+70%] best gain 20.6% no-useful-gain@5/10/20% n/n/n
+  unbounded power, anchored (n=19/19) capacity   1.97  modes   2.24  change  +13% | cells: 95% [-13%,+42%] best gain 8.4% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-20%,+49%] best gain 14.2% no-useful-gain@5/10/20% n/n/Y
+
+B. LAM_NE:LLI ratio (Baure & Dubarry) as knee early warning, at the same observation points
+  Kirkaldy NMC: 40 cells, 7 knee | ratio AUC 0.46 [0.24,0.69] | capacity acceleration AUC 0.72 | difference [-0.65,+0.16] | rule ratio>1: TP 2 FN 5 FP 19 TN 14 | median ratio knee 0.92, no knee 1.10 -> not useful
+  Wheeler LFP: 20 cells, 0 knee -> not testable (one class only); median ratio 0.73, ratio > 1 in 5 cells
+  Michigan NMC: 19 cells, 2 knee | ratio AUC 1.00 [1.00,1.00] | capacity acceleration AUC 1.00 | difference [+0.00,+0.00] | rule ratio>1: TP 0 FN 2 FP 0 TN 17 | median ratio knee 0.87, no knee 0.69 -> not useful

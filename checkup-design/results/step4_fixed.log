@@ -1,0 +1,13 @@
+STEP 4, best fixed design (chosen on 16 dev cells) vs the misfit rule, 24 confirmation cells
+  rule (misfit, 30%)                    RMSE 5.44 pp, 3.6 h
+  F30 (best 30 % on dev cells)         s0.3_a0.25_b0.75: RMSE 6.93 pp, 3.6 h (dev-cell RMSE 3.70)
+      rule - fixed -1.49 pp, 95 % CI [-3.56, +0.58], one-sided upper +0.42 vs margin 0.69 -> NON-INFERIOR
+        expt1: rule 5.97  fixed 5.68
+        expt2: rule 2.84  fixed 3.14
+        expt3: rule 6.16  fixed 9.44
+  Fany (best any size on dev cells)    s0.3_a0.25_b0.75: RMSE 6.93 pp, 3.6 h (dev-cell RMSE 3.70)
+      rule - fixed -1.49 pp, 95 % CI [-3.56, +0.58], one-sided upper +0.42 vs margin 0.69 -> NON-INFERIOR
+        expt1: rule 5.97  fixed 5.68
+        expt2: rule 2.84  fixed 3.14
+        expt3: rule 6.16  fixed 9.44
+  descriptive: oracle fixed design on the confirmation cells s0.2_a1.00_b0.25 4.21 pp; oracle 30 % s0.3_a0.25_b0.50 4.61 pp; dev-chosen rank among 30 % designs here: 19/25

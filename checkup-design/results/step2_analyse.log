@@ -1,0 +1,18 @@
+SIMULATED test set (150 states, seed 0): design-level Spearman with RMSE of LLI/LAM_PE
+  CRB    +0.11   misfit +0.74   (RMSE across designs 3.12-16.72 pp; random 35-50 %: 3.56 pp)
+
+REAL NMC (104 check-ups, 16 cells): design-level Spearman with RMSE of LLI/LAM_PE [cell bootstrap]
+  crb     -0.03 [-0.12, +0.02]
+  misfit  +0.48 [+0.42, +0.53]
+
+PROCEDURE on real NMC: RMSE [pp] of LLI/LAM_PE over later check-ups (16 cells; 95 % cell bootstrap)
+  misfit, own first check-up              7.29 pp, 2.5 h  (vs random large +0.36..+3.01)
+  misfit, other cells' first check-ups    8.12 pp, 2.4 h  (vs random large +0.96..+4.31)
+  CRB-best                               10.45 pp, 2.4 h  (vs random large +3.02..+6.86)
+  median design                           7.00 pp, 2.4 h  (vs random large +0.56..+2.45)
+  oracle (best on labels)                 3.75 pp, 3.6 h  (vs random large -2.43..-1.16)
+  misfit, own first, 20% only             8.11 pp, 2.4 h  (vs random large +1.28..+3.78)
+  median 20% design                       8.30 pp, 2.4 h  (vs random large +1.66..+3.88)
+  misfit, own first, 30% only             5.12 pp, 3.6 h  (vs random large -1.15..+0.21)
+  median 30% design                       6.12 pp, 3.6 h  (vs random large -0.12..+1.29)
+  random 35-50 % pairs                    5.51 pp, 5.1 h

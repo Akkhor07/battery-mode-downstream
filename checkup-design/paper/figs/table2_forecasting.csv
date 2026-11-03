@@ -1,0 +1,21 @@
+data,cells,method,modes,capacity only (pp),with modes (pp),change,"95 % CI, cells","95 % CI, clusters",best plausible gain (cells / clusters),10 % gain (clusters)
+Kirkaldy NMC,40,sqrt extrapolation,reference,3.18,3.16,-1 %,"[-8, +6] %","[-11, +10] %",6.7 / 8.9 %,excluded
+Kirkaldy NMC,40,sqrt extrapolation,estimated,3.18,4.63,+45 %,"[+21, +70] %","[+12, +85] %",0.0 / 0.0 %,excluded
+Kirkaldy NMC,40,power-law extrapolation,reference,3.16,3.27,+4 %,"[-4, +12] %","[-6, +14] %",2.7 / 4.0 %,excluded
+Kirkaldy NMC,40,power-law extrapolation,estimated,3.16,4.42,+40 %,"[+21, +62] %","[+11, +74] %",0.0 / 0.0 %,excluded
+Kirkaldy NMC,40,"half-cell, after Lui et al.",reference,3.18,3.47,+9 %,"[-4, +21] %","[-5, +23] %",2.6 / 2.4 %,excluded
+Kirkaldy NMC,40,"half-cell, after Lui et al.",estimated,3.18,4.36,+37 %,"[+15, +62] %","[+12, +66] %",0.0 / 0.0 %,excluded
+Kirkaldy NMC,40,"cross-cell, leave-one-cell-out (MAE)",reference,3.17,3.21,+1 %,"[-8, +10] %","[-14, +16] %",6.3 / 11.8 %,not excluded
+Kirkaldy NMC,40,"cross-cell, leave-one-cell-out (MAE)",estimated,3.17,3.43,+8 %,"[+3, +15] %","[+3, +17] %",0.0 / 0.0 %,excluded
+Kirkaldy NMC,40,"cross-cell, leave-one-expt-out (MAE)",reference,4.05,4.19,+4 %,"[-7, +15] %","[-11, +20] %",6.0 / 9.0 %,excluded
+Kirkaldy NMC,40,"cross-cell, leave-one-expt-out (MAE)",estimated,4.05,4.70,+16 %,"[+5, +29] %","[+2, +34] %",0.0 / 0.0 %,excluded
+Michigan NMC,19,"mode map, sqrt",reference,2.40,2.50,+4 %,"[-2, +11] %","[-3, +12] %",1.1 / 2.0 %,excluded
+Michigan NMC,19,"mode map, power law",reference,1.97,2.13,+8 %,"[-4, +22] %","[-9, +25] %",2.3 / 6.2 %,excluded
+Michigan NMC,19,"after Lui et al., sqrt",reference,2.40,2.86,+19 %,"[-5, +44] %","[-10, +49] %",1.2 / 4.5 %,excluded
+Michigan NMC,19,"after Lui et al., power law",reference,1.97,2.24,+13 %,"[-12, +42] %","[-20, +49] %",8.2 / 15.1 %,not excluded
+Wheeler LFP,20,"sqrt extrapolation, 600 cycles",reference,6.27,6.60,+5 %,"[-5, +15] %","[-9, +19] %",3.3 / 6.6 %,excluded
+Wheeler LFP,20,"sqrt extrapolation, 600 cycles",estimated,6.27,31.08,+395 %,"[+280, +517] %","[+258, +555] %",0.0 / 0.0 %,excluded
+Wheeler LFP,20,"power-law extrapolation, 600 cycles",reference,9.32,9.68,+4 %,"[-57, +50] %","[-76, +66] %",44.0 / 59.8 %,not excluded
+Wheeler LFP,20,"power-law extrapolation, 600 cycles",estimated,9.32,84.86,+811 %,"[+161, +1912] %","[+120, +2200] %",0.0 / 0.0 %,excluded
+Wheeler LFP,20,"half-cell, after Lui et al.",reference,6.27,8.72,+39 %,"[+6, +88] %","[-2, +98] %",0.0 / 0.0 %,excluded
+Wheeler LFP,20,"half-cell, after Lui et al.",estimated,6.27,31.31,+399 %,"[+250, +566] %","[+216, +598] %",0.0 / 0.0 %,excluded

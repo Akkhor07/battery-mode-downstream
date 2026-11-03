@@ -1,0 +1,33 @@
+A. per-cell extrapolation (20 LFP cells): mean SOH RMSE [pp] and MAE of crossing cycle
+
+  N_obs = 400 cycles (3-5 check-ups)
+    capacity         n=20 SOH RMSE  12.5 (cap 12.5) | 80%: MAE   345 cyc | 70%: MAE   493 cyc
+    modes_pinn_enc   n=20 SOH RMSE  67.8 (cap 12.5) | 80%: MAE  6215 cyc (vs cap +2425..+9455) | 70%: MAE  7170 cyc (vs cap +3351..+10239)
+    modes_cnn_dr     n=20 SOH RMSE  55.1 (cap 12.5) | 80%: MAE  8491 cyc (vs cap +4604..+12160) | 70%: MAE  9485 cyc (vs cap +5486..+12549)
+    modes_ref        n=20 SOH RMSE  11.8 (cap 12.5) | 80%: MAE   333 cyc (vs cap -44..+13) | 70%: MAE   504 cyc (vs cap -36..+58)
+
+  N_obs = 600 cycles (5-7 check-ups)
+    capacity         n=20 SOH RMSE   6.3 (cap  6.3) | 80%: MAE   215 cyc | 70%: MAE   309 cyc
+    modes_pinn_enc   n=20 SOH RMSE  31.1 (cap  6.3) | 80%: MAE  6947 cyc (vs cap +3149..+10424) | 70%: MAE  7774 cyc (vs cap +3891..+11265)
+    modes_cnn_dr     n=20 SOH RMSE  26.2 (cap  6.3) | 80%: MAE  5981 cyc (vs cap +2248..+9418) | 70%: MAE  6108 cyc (vs cap +2577..+9314)
+    modes_ref        n=20 SOH RMSE   6.6 (cap  6.3) | 80%: MAE   212 cyc (vs cap -20..+10) | 70%: MAE   326 cyc (vs cap -13..+47)
+
+  N_obs = 800 cycles (7-9 check-ups)
+    capacity         n=20 SOH RMSE   4.3 (cap  4.3) | 80%: MAE   121 cyc | 70%: MAE   234 cyc
+    modes_pinn_enc   n=20 SOH RMSE  24.7 (cap  4.3) | 80%: MAE  6134 cyc (vs cap +3058..+9838) | 70%: MAE  7271 cyc (vs cap +3558..+10538)
+    modes_cnn_dr     n=20 SOH RMSE  17.5 (cap  4.3) | 80%: MAE  5526 cyc (vs cap +2355..+8951) | 70%: MAE  6752 cyc (vs cap +3515..+9761)
+    modes_ref        n=20 SOH RMSE   4.5 (cap  4.3) | 80%: MAE   122 cyc (vs cap -8..+9) | 70%: MAE   240 cyc (vs cap -15..+26)
+
+B. leave-one-cell-out ridge, MAE of cycles to threshold
+
+  N_obs = 400 cycles
+    80%:  capacity 212  cap+modes_pinn_enc 230 [-5,+46]  cap+modes_cnn_dr 250 [+5,+79]  cap+modes_ref 222 [-30,+55]
+    70%:  capacity 340  cap+modes_pinn_enc 359 [-19,+61]  cap+modes_cnn_dr 394 [+2,+110]  cap+modes_ref 388 [-27,+137]
+
+  N_obs = 600 cycles
+    80%:  capacity 193  cap+modes_pinn_enc 183 [-46,+31]  cap+modes_cnn_dr 179 [-37,+15]  cap+modes_ref 200 [-13,+30]
+    70%:  capacity 318  cap+modes_pinn_enc 303 [-91,+70]  cap+modes_cnn_dr 258 [-115,+4]  cap+modes_ref 336 [-34,+75]
+
+  N_obs = 800 cycles
+    80%:  capacity 150  cap+modes_pinn_enc 168 [-3,+43]  cap+modes_cnn_dr 173 [-3,+50]  cap+modes_ref 151 [-24,+37]
+    70%:  capacity 195  cap+modes_pinn_enc 216 [-14,+61]  cap+modes_cnn_dr 218 [-20,+68]  cap+modes_ref 170 [-57,+9]

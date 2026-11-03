@@ -1,0 +1,5 @@
+Grid designs: 50; realised RMSE of LLI, LAM_PE 3.71-11.91 pp
+classical CRB 0.070-1.843 pp; Bayesian bound 0.070-1.804 pp; max relative change 2.9%
+Spearman(crb_used, realised RMSE) = -0.05 [-0.12, +0.02]
+Spearman(bcrb_used, realised RMSE) = -0.05 [-0.12, +0.01]
+Bayesian-bound-best design s0.2_a1.00_b1.00: realised 9.34 pp (median 7.00, best 3.71)

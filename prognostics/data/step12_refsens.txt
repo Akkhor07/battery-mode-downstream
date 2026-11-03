@@ -1,0 +1,15 @@
+STEP 12: mode map / capacity RMSE ratio under perturbed reference modes (sqrt; < 1 = modes better)
+  Michigan k=5: unperturbed ratio 1.043
+    N1   median 1.486 [5-95 %: 1.170, 1.821], draws with >= 10 % gain 0.0 %
+    N2   median 2.263 [5-95 %: 1.657, 2.817], draws with >= 10 % gain 0.0 %
+    SC   median 1.161 [5-95 %: 0.945, 1.379], draws with >= 10 % gain 3.5 %
+    LK   median 1.043 [5-95 %: 1.043, 1.043], draws with >= 10 % gain 0.0 %
+    KD   median 1.214 [5-95 %: 1.089, 1.347], draws with >= 10 % gain 0.0 %
+    ALL  median 1.605 [5-95 %: 1.235, 2.011], draws with >= 10 % gain 0.0 %
+  Kirkaldy 40: unperturbed ratio 0.992
+    N1   median 1.338 [5-95 %: 1.196, 1.500], draws with >= 10 % gain 0.0 %
+    N2   median 1.797 [5-95 %: 1.529, 2.113], draws with >= 10 % gain 0.0 %
+    SC   median 1.064 [5-95 %: 0.996, 1.132], draws with >= 10 % gain 0.0 %
+    LK   median 0.992 [5-95 %: 0.992, 0.992], draws with >= 10 % gain 0.0 %
+    KD   median 1.057 [5-95 %: 1.005, 1.116], draws with >= 10 % gain 0.0 %
+    ALL  median 1.337 [5-95 %: 1.163, 1.477], draws with >= 10 % gain 0.0 %

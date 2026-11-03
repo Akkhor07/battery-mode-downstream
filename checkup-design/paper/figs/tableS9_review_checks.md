@@ -1,0 +1,21 @@
+| check | data | change | 95 % CI or range | best plausible gain / other | verdict |
+|---|---|---|---|---|---|
+| Mechanism-switching forecast vs capacity-driven switch | Kirkaldy, switch on LAM_PE (40 cells) | +1 % | [-3, +5] % | 2.5 % | no gain |
+|  | Kirkaldy, switch on LAM_NE (descriptive) | -1 % | [-5, +4] % | 4.3 % | no gain |
+|  | Wheeler, switch on LAM_NE (20 cells) | +10 % | [+0, +23] % | 0.0 % | worse |
+|  | Michigan, switch on LAM_PE (19 cells) | +2 % | [+0, +10] % | 0.0 % | worse |
+| Faithful Lui et al. without LAM_NE (bounded power, unanchored) | Kirkaldy | +89 % | [+38, +132] % | 0.0 % | unchanged (excluded) |
+|  | Wheeler | -8 % | [-35, +21] % | 30.6 % | unchanged (not excluded) |
+|  | Michigan | +1 % | [-33, +34] % | 27.8 % | unchanged (not excluded) |
+| Same, scaled to the last SOH (secondary) | Kirkaldy | -5 % | [-21, +7] % | 18.5 % | changed (was excluded) |
+| Half-cell after Lui et al. without LAM_NE (power, scaled) | Kirkaldy | +3 % | [-5, +12] % | 4.1 % | excluded |
+|  | Michigan | +16 % | [-12, +45] % | 7.2 % | excluded (was not excluded) |
+|  | Wheeler | -7 % | [-35, +24] % | 30.4 % | not excluded (was excluded) |
+| Knee test with LAM_PE:LLI ratio | Kirkaldy, 7 knee cells | AUC 0.36 | [0.15, 0.62] | capacity 0.72 | not useful |
+|  | Michigan, 2 knee cells | AUC 0.06 | [0.00, 0.19] | capacity 1.00 | not useful |
+| Bayesian bound (prior included) vs realised design error | 16 development cells, 50 designs | Spearman -0.05 | [-0.12, +0.01] | bound within 2.9 % of CRB | does not rank designs |
+| Leave-one-cluster-out, reference-mode rows of Table 3 | Kirkaldy sqrt / power / half-cell | -1 / +4 / +9 % | -3..+2 / +2..+6 / +6..+12 % | sign-flip p 0.53 / 0.84 / 1.00 | consistent |
+|  | Michigan map sqrt / power; Lui sqrt / power | +4 / +8; +19 / +13 % | +3..+6 / +2..+12; +11..+24 / +2..+22 % | sign-flip p 0.92 / 0.75; 0.98 / 0.71 | consistent |
+|  | Wheeler sqrt / power / half-cell | +5 / +4 / +39 % | -1..+10 / -18..+31 / +19..+54 % | sign-flip p 0.74 / 0.41 / 0.93 | consistent |
+
+Secondary checks added in response to review, with criteria written in the analysis script before running (battery-pinn-prognostics/src/step14_reviewer2.py; checkup-design gap2/step6_bayes_crb.py). Changes are relative to the comparator named in the first column; sign-flip p is the exact one-sided p-value for a gain from the modes over all sign patterns of the cluster-mean differences.

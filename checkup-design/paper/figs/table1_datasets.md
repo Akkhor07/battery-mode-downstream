@@ -1,0 +1,9 @@
+| dataset | cell | cells, conditions | check-ups used | min SOH | reference modes | used for |
+|---|---|---|---|---|---|---|
+| Kirkaldy et al. 2024 (Zenodo 10.5281/zenodo.10637534) | LG M50T 21700, 5 Ah, NMC811 / graphite-SiOx | 40 cells, 5 experiments (1: Si-driven, 2,2: graphite-driven, 3: cathode + plating, 4: drive cycle, 5: standard cycle); 10/25/40 °C | 511 capacity; 264 with C/10 + C/2 discharge windows | 0.45 | published OCV fits of the C/10 discharge; own refits (C/10 charge and discharge) | forecasting; window design (dev.: expt 4, 5; confirmation: expt 1-3); resistance |
+| Wheeler et al. 2025 (doi 10.57745/OLBXKT) | A123 APR18650M1, 1.1 Ah, graphite / LFP | 20 cells, 7 cycling protocols, 50 °C | 820 (every 100 cycles, to 6800 cycles), C/25 + C/3 discharge | 0.32 | own whole-curve physics fit of C/25 + C/3 (LAM_PE fixed, not identifiable) | forecasting |
+| Mohtat et al. 2021 (doi 10.7302/7tw1-kc35) | NMC532 / graphite pouch, ~5 Ah (measured) | 21 cells, 7 cycling conditions | 241 C/20 discharges (6-15 per cell) | 0.58 | own quasi-OCV fit of the C/20 discharge, OCPs fitted to this cell (Mohtat2020) | forecasting replication, reference modes only (19 cells with >= 7 check-ups in the primary test) |
+| Pozzato et al. 2022 (OSF qsabn) | LG M50T 21700, 5 Ah | 10 cells, driving profiles, 23 °C | 101 C/20 discharges | – | own quasi-OCV fit; 1 of 10 cells pass the quality rule | not usable (limitation) |
+| Dubarry & Anseán 2022 (Mendeley 4k8f4t352y) | synthetic: graphite / NMC532 and Si-graphite / NMC811 | 20 degradation sets (18 single-mechanism, 2 combined paths) | 478 C/25 curves | – | known (simulation ground truth) | accuracy of the reference-mode fits |
+
+SOH relative to each cell's first check-up. Michigan and Stanford check-ups have no partial windows, so only reference modes can be tested there.

@@ -1,0 +1,27 @@
+A. Per-cell forecasting, SOH RMSE [pp]; bootstrap over cells and over experiments/protocols
+  NMC 40, sqrt, modes_ref            capacity   3.18  modes   3.16  change   -1% | cells: 95% [-8%,+6%] best gain 6.7% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-11%,+10%] best gain 8.9% no-useful-gain@5/10/20% n/Y/Y
+  NMC 40, sqrt, modes_pinn_lm        capacity   3.18  modes   4.63  change  +45% | cells: 95% [+21%,+70%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+12%,+85%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  LFP 20, 600 cyc, sqrt, modes_ref   capacity   6.27  modes   6.60  change   +5% | cells: 95% [-5%,+15%] best gain 3.3% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-9%,+19%] best gain 6.6% no-useful-gain@5/10/20% n/Y/Y
+  LFP 20, 600 cyc, sqrt, modes_pinn_enc capacity   6.27  modes  31.08  change +395% | cells: 95% [+280%,+517%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+258%,+555%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  NMC 40, power, modes_ref           capacity   3.16  modes   3.27  change   +4% | cells: 95% [-4%,+12%] best gain 2.7% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-6%,+14%] best gain 4.0% no-useful-gain@5/10/20% Y/Y/Y
+  NMC 40, power, modes_pinn_lm       capacity   3.16  modes   4.42  change  +40% | cells: 95% [+21%,+62%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+11%,+74%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  LFP 20, 600 cyc, power, modes_ref  capacity   9.32  modes   9.68  change   +4% | cells: 95% [-57%,+50%] best gain 44.0% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-76%,+66%] best gain 59.8% no-useful-gain@5/10/20% n/n/n
+  LFP 20, 600 cyc, power, modes_pinn_enc capacity   9.32  modes  84.86  change +811% | cells: 95% [+161%,+1912%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+120%,+2200%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  NMC Yu half-cell, modes_pinn_lm    capacity   3.18  modes   4.36  change  +37% | cells: 95% [+15%,+62%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+12%,+66%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  NMC Yu half-cell, modes_ref        capacity   3.18  modes   3.47  change   +9% | cells: 95% [-4%,+21%] best gain 2.6% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-5%,+23%] best gain 2.4% no-useful-gain@5/10/20% Y/Y/Y
+  LFP Yu half-cell, modes_pinn_enc   capacity   6.27  modes  31.31  change +399% | cells: 95% [+250%,+566%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+216%,+598%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  LFP Yu half-cell, modes_ref        capacity   6.27  modes   8.72  change  +39% | cells: 95% [+6%,+88%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-2%,+98%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+
+B. NMC 0.1 s resistance growth (39 cells without expt5A), MAE [% of R0]; Holm over the 2 primary tests
+  leave-one-cell-out + est LLI, LAM_PE   3.73 vs  4.48  cluster 95% [-1.72,+0.38]  p=0.205
+  leave-one-cell-out + ref LLI, LAM_PE   3.30 vs  4.48  cluster 95% [-2.50,-0.16]  p=0.014
+    Holm-adjusted p: + ref LLI, LAM_PE 0.028, + est LLI, LAM_PE 0.205
+  leave-one-experiment-out + est LLI, LAM_PE   3.90 vs  4.63  cluster 95% [-1.58,+0.39]  p=0.191
+  leave-one-experiment-out + ref LLI, LAM_PE   3.60 vs  4.63  cluster 95% [-2.09,-0.25]  p=0.006
+    Holm-adjusted p: + ref LLI, LAM_PE 0.012, + est LLI, LAM_PE 0.191
+
+C. Cross-cell early-life prediction (NMC, 40 cells): fade at 6.3 kAh from check-ups up to RPT 4; target fade 7.0-37.9 %; MAE [pp]
+  LOCO + est LLI, LAM_PE             capacity   3.17  modes   3.43  change   +8% | cells: 95% [+3%,+15%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+3%,+17%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  LOCO + ref LLI, LAM_PE, LAM_NE     capacity   3.17  modes   3.21  change   +1% | cells: 95% [-8%,+10%] best gain 6.3% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-14%,+16%] best gain 11.8% no-useful-gain@5/10/20% n/n/Y
+  LOEO + est LLI, LAM_PE             capacity   4.05  modes   4.70  change  +16% | cells: 95% [+5%,+29%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+2%,+34%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  LOEO + ref LLI, LAM_PE, LAM_NE     capacity   4.05  modes   4.19  change   +4% | cells: 95% [-7%,+15%] best gain 6.0% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-11%,+20%] best gain 9.0% no-useful-gain@5/10/20% n/Y/Y

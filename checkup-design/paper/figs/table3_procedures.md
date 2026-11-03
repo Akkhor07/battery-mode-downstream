@@ -1,0 +1,13 @@
+| procedure | labels needed | check-up time (h) | RMSE dev., 16 cells (pp) | dev. minus random, 95 % CI (pp) | RMSE confirmation, 24 cells (pp) |
+|---|---|---|---|---|---|
+| Misfit rule, 30 % windows (pre-specified) | no | 3.6 | 5.12 | [-1.15, +0.21] | 5.44 |
+| Misfit, any window size | no | 2.5 | 7.29 | [+0.36, +3.01] | – |
+| Misfit, other cells' first check-ups | no | 2.4 | 8.12 | [+0.96, +4.31] | – |
+| Cramér–Rao-best design | no | 2.4 | 10.45 | [+3.02, +6.86] | – |
+| Median grid design (benchmark) | – | 2.4 | 7.00 | [+0.56, +2.45] | – |
+| Median 30 % design (benchmark) | – | 3.6 | 6.12 | [-0.12, +1.29] | – |
+| Random 35–50 % pairs (reference) | no | 5.1 | 5.51 | – | 6.78 |
+| Best fixed design of the development cells | yes (dev.) | 3.6 | 3.70 | in-sample | 6.93 |
+| Oracle design (best on labels; 2.4 h on confirmation) | yes | 3.6 | 3.75 | [-2.43, -1.16] | 4.21 |
+
+Confirmation, pre-specified: rule minus random -1.33 pp, one-sided 95 % upper bound -0.82 pp (margin 0.68 pp): non-inferior. Rule minus best fixed design -1.49 pp, 95 % CI [-3.56, +0.58], one-sided upper +0.42 vs margin 0.69 pp: non-inferior, superiority not shown. Cluster bootstrap (experiments, then cells). Oracle rows use the labels and are not usable procedures.

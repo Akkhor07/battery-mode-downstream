@@ -1,0 +1,22 @@
+| data | configuration | cells | capacity only (pp) | with modes (pp) | change | 95 % CI, clusters | best plausible gain (clusters) | 10 % gain (clusters) |
+|---|---|---|---|---|---|---|---|---|
+| Kirkaldy NMC | config 3 (bounded power), unanchored | 40 | 3.96 | 6.18 | +56 % | [+31, +84] % | 0.0 % | excluded |
+| Kirkaldy NMC | config 3 (bounded power), anchored | 40 | 3.96 | 4.18 | +5 % | [-9, +25] % | 7.3 % | excluded |
+| Kirkaldy NMC | config 2 (bounded dbl-exp), unanchored | 40 | 4.44 | 6.41 | +44 % | [+24, +68] % | 0.0 % | excluded |
+| Kirkaldy NMC | config 2 (bounded dbl-exp), anchored | 40 | 4.44 | 4.76 | +7 % | [-12, +30] % | 9.8 % | excluded |
+| Kirkaldy NMC | unbounded power, unanchored | 40 | 3.41 | 5.34 | +56 % | [+28, +88] % | 0.0 % | excluded |
+| Kirkaldy NMC | unbounded power, anchored | 40 | 3.41 | 3.76 | +10 % | [-11, +39] % | 8.4 % | excluded |
+| Wheeler LFP | config 3 (bounded power), unanchored | 20 | 5.80 | 6.36 | +10 % | [-30, +63] % | 24.2 % | not excluded |
+| Wheeler LFP | config 3 (bounded power), anchored | 20 | 5.80 | 6.40 | +10 % | [-30, +62] % | 23.9 % | not excluded |
+| Wheeler LFP | config 2 (bounded dbl-exp), unanchored | 20 | 9.14 | 11.19 | +22 % | [-13, +87] % | 8.7 % | excluded |
+| Wheeler LFP | config 2 (bounded dbl-exp), anchored | 20 | 9.14 | 11.21 | +23 % | [-13, +90] % | 9.0 % | excluded |
+| Wheeler LFP | unbounded power, unanchored | 20 | 5.80 | 13.52 | +133 % | [-16, +348] % | 4.4 % | excluded |
+| Wheeler LFP | unbounded power, anchored | 20 | 5.80 | 13.62 | +135 % | [-17, +340] % | 7.1 % | excluded |
+| Michigan NMC | config 3 (bounded power), unanchored | 19 | 2.34 | 2.35 | +1 % | [-33, +33] % | 28.2 % | not excluded |
+| Michigan NMC | config 3 (bounded power), anchored | 19 | 2.34 | 2.04 | -13 % | [-43, +13] % | 37.2 % | not excluded |
+| Michigan NMC | config 2 (bounded dbl-exp), unanchored | 14 | 5.26 | 4.29 | -18 % | [-35, -4] % | 32.7 % | not excluded |
+| Michigan NMC | config 2 (bounded dbl-exp), anchored | 14 | 5.26 | 4.33 | -18 % | [-38, -5] % | 33.7 % | not excluded |
+| Michigan NMC | unbounded power, unanchored | 19 | 1.97 | 2.44 | +24 % | [-30, +70] % | 20.6 % | not excluded |
+| Michigan NMC | unbounded power, anchored | 19 | 1.97 | 2.24 | +13 % | [-20, +49] % | 14.2 % | not excluded |
+
+Secondary check (criteria fixed in the step-13 script header before running). Lui et al. (2021): coefficients bounded to +-50 % of a pooled fit on the other cells of the same experiment / protocol / condition; capacity-only baseline treated identically. 'Unanchored' as in Lui et al.; 'anchored' scales to the last observed SOH as in the main analysis. 'Unbounded power' = per-cell fit, same pipeline. Reference modes only. Config 2 on Michigan: 5 of 19 cells could not be fitted.

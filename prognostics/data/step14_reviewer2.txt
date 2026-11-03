@@ -1,0 +1,64 @@
+A. Without LAM_NE information (relative LAM_NE fixed at 0)
+
+Kirkaldy NMC [no LAM_NE]: 40 cells
+  config 3 (bounded power), unanchored (n=40/40) capacity   3.96  modes   7.51  change  +89% | cells: 95% [+61%,+116%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+38%,+132%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  config 3 (bounded power), anchored (n=40/40) capacity   3.96  modes   3.76  change   -5% | cells: 95% [-15%,+3%] best gain 13.3% no-useful-gain@5/10/20% n/n/Y | clusters: 95% [-21%,+7%] best gain 18.5% no-useful-gain@5/10/20% n/n/Y
+  config 2 (bounded dbl-exp), unanchored (n=40/40) capacity   4.44  modes   8.97  change +102% | cells: 95% [+82%,+122%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+61%,+145%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  config 2 (bounded dbl-exp), anchored (n=40/40) capacity   4.44  modes   4.70  change   +6% | cells: 95% [-4%,+15%] best gain 2.4% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-10%,+26%] best gain 8.3% no-useful-gain@5/10/20% n/Y/Y
+  unbounded power, unanchored (n=40/40) capacity   3.41  modes   6.97  change +104% | cells: 95% [+76%,+131%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+57%,+150%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  unbounded power, anchored (n=40/40) capacity   3.41  modes   3.51  change   +3% | cells: 95% [-3%,+9%] best gain 2.2% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-5%,+12%] best gain 4.1% no-useful-gain@5/10/20% Y/Y/Y
+
+Wheeler LFP [no LAM_NE]: 20 cells
+  config 3 (bounded power), unanchored (n=20/20) capacity   5.80  modes   5.35  change   -8% | cells: 95% [-32%,+15%] best gain 28.2% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-35%,+21%] best gain 30.6% no-useful-gain@5/10/20% n/n/n
+  config 3 (bounded power), anchored (n=20/20) capacity   5.80  modes   5.41  change   -7% | cells: 95% [-33%,+17%] best gain 28.5% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-36%,+23%] best gain 30.3% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), unanchored (n=20/20) capacity   9.14  modes  11.26  change  +23% | cells: 95% [-9%,+72%] best gain 5.2% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-9%,+82%] best gain 4.7% no-useful-gain@5/10/20% Y/Y/Y
+  config 2 (bounded dbl-exp), anchored (n=20/20) capacity   9.14  modes  11.32  change  +24% | cells: 95% [-8%,+73%] best gain 4.8% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-9%,+84%] best gain 5.0% no-useful-gain@5/10/20% n/Y/Y
+  unbounded power, unanchored (n=20/20) capacity   5.80  modes   5.35  change   -8% | cells: 95% [-32%,+15%] best gain 28.1% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-34%,+21%] best gain 29.6% no-useful-gain@5/10/20% n/n/n
+  unbounded power, anchored (n=20/20) capacity   5.80  modes   5.41  change   -7% | cells: 95% [-32%,+17%] best gain 28.1% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-35%,+24%] best gain 30.4% no-useful-gain@5/10/20% n/n/n
+
+Michigan NMC [no LAM_NE]: 21 cells
+  config 3 (bounded power), unanchored (n=19/19) capacity   2.34  modes   2.36  change   +1% | cells: 95% [-30%,+32%] best gain 24.9% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-33%,+34%] best gain 27.8% no-useful-gain@5/10/20% n/n/n
+  config 3 (bounded power), anchored (n=19/19) capacity   2.34  modes   2.04  change  -13% | cells: 95% [-36%,+9%] best gain 31.7% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-41%,+13%] best gain 36.0% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), unanchored (n=15/19) capacity   5.01  modes   4.02  change  -20% | cells: 95% [-32%,-7%] best gain 30.2% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-38%,-5%] best gain 35.2% no-useful-gain@5/10/20% n/n/n
+  config 2 (bounded dbl-exp), anchored (n=15/19) capacity   5.01  modes   4.11  change  -18% | cells: 95% [-32%,-6%] best gain 29.4% no-useful-gain@5/10/20% n/n/n | clusters: 95% [-37%,-5%] best gain 33.5% no-useful-gain@5/10/20% n/n/n
+  unbounded power, unanchored (n=19/19) capacity   1.97  modes   2.50  change  +26% | cells: 95% [-11%,+66%] best gain 5.3% no-useful-gain@5/10/20% n/Y/Y | clusters: 95% [-19%,+67%] best gain 12.2% no-useful-gain@5/10/20% n/n/Y
+  unbounded power, anchored (n=19/19) capacity   1.97  modes   2.28  change  +16% | cells: 95% [-5%,+38%] best gain 2.4% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-12%,+45%] best gain 7.2% no-useful-gain@5/10/20% n/Y/Y
+
+A2. Knee test with the LAM_PE:LLI ratio
+  Kirkaldy NMC [LAM_PE:LLI]: 40 cells, 7 knee | ratio AUC 0.36 [0.15,0.62] | capacity acceleration AUC 0.72 | difference [-0.61,-0.13] | rule ratio>1: TP 0 FN 7 FP 2 TN 31 | median ratio knee 0.48, no knee 0.53 -> not useful
+  Wheeler LFP [LAM_PE:LLI]: 20 cells, 0 knee -> not testable (one class only); median ratio 0.00, ratio > 1 in 0 cells
+  Michigan NMC [LAM_PE:LLI]: 19 cells, 2 knee | ratio AUC 0.06 [0.00,0.19] | capacity acceleration AUC 1.00 | difference [-1.00,-0.81] | rule ratio>1: TP 0 FN 2 FP 0 TN 17 | median ratio knee -0.02, no knee 0.46 -> not useful
+
+B. Mechanism-switching forecast (power law if LAM grows faster than LLI over the last 3 check-ups)
+  Kirkaldy NMC, switch on LAM_PE: 40 cells; switched by modes 5, by capacity 5, both 1
+     modes switch vs capacity sqrt   capacity   3.43  modes   3.45  change   +1% | cells: 95% [-0%,+2%] best gain 0.1% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-0%,+3%] best gain 0.1% no-useful-gain@5/10/20% Y/Y/Y
+     modes switch vs capacity switch capacity   3.43  modes   3.45  change   +1% | cells: 95% [-2%,+3%] best gain 1.4% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-3%,+5%] best gain 2.5% no-useful-gain@5/10/20% Y/Y/Y
+  Kirkaldy NMC, switch on LAM_NE: 40 cells; switched by modes 18, by capacity 5, both 1
+     modes switch vs capacity sqrt   capacity   3.43  modes   3.41  change   -0% | cells: 95% [-3%,+1%] best gain 2.3% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-4%,+2%] best gain 3.6% no-useful-gain@5/10/20% Y/Y/Y
+     modes switch vs capacity switch capacity   3.43  modes   3.41  change   -1% | cells: 95% [-4%,+2%] best gain 3.1% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [-5%,+4%] best gain 4.3% no-useful-gain@5/10/20% Y/Y/Y
+  Wheeler LFP, switch on LAM_NE: 20 cells; switched by modes 6, by capacity 1, both 1
+     modes switch vs capacity sqrt   capacity   5.07  modes   5.74  change  +13% | cells: 95% [+3%,+26%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+1%,+29%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+     modes switch vs capacity switch capacity   5.23  modes   5.74  change  +10% | cells: 95% [+1%,+21%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+23%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  Michigan NMC, switch on LAM_PE: 19 cells; switched by modes 0, by capacity 2, both 0
+     modes switch vs capacity sqrt   capacity   2.40  modes   2.40  change   +0% | cells: 95% [+0%,+0%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+0%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+     modes switch vs capacity switch capacity   2.34  modes   2.40  change   +2% | cells: 95% [+0%,+7%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+10%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+  Michigan NMC, switch on LAM_NE: 19 cells; switched by modes 1, by capacity 2, both 0
+     modes switch vs capacity sqrt   capacity   2.40  modes   2.43  change   +2% | cells: 95% [+0%,+5%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+6%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+     modes switch vs capacity switch capacity   2.34  modes   2.43  change   +4% | cells: 95% [+0%,+10%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y | clusters: 95% [+0%,+12%] best gain 0.0% no-useful-gain@5/10/20% Y/Y/Y
+
+C. Few-cluster checks for the reference-mode rows of Table 3
+  Kirkaldy sqrt, mode map                change -1%; leave-one-cluster-out -3% to +2% (5 clusters); exact sign-flip p(modes better) = 0.53
+  Wheeler sqrt, mode map                 change +5%; leave-one-cluster-out -1% to +10% (7 clusters); exact sign-flip p(modes better) = 0.74
+  Kirkaldy power, mode map               change +4%; leave-one-cluster-out +2% to +6% (5 clusters); exact sign-flip p(modes better) = 0.84
+  Wheeler power, mode map                change +4%; leave-one-cluster-out -18% to +31% (7 clusters); exact sign-flip p(modes better) = 0.41
+  NMC half-cell after Lui                change +9%; leave-one-cluster-out +6% to +12% (5 clusters); exact sign-flip p(modes better) = 1.00
+  LFP half-cell after Lui                change +39%; leave-one-cluster-out +19% to +54% (7 clusters); exact sign-flip p(modes better) = 0.93
+  Michigan sqrt, mode map                change +4%; leave-one-cluster-out +3% to +6% (7 clusters); exact sign-flip p(modes better) = 0.92
+  Michigan sqrt, after Lui               change +19%; leave-one-cluster-out +11% to +24% (7 clusters); exact sign-flip p(modes better) = 0.98
+  Michigan power, mode map               change +8%; leave-one-cluster-out +2% to +12% (7 clusters); exact sign-flip p(modes better) = 0.75
+  Michigan power, after Lui              change +13%; leave-one-cluster-out +2% to +22% (7 clusters); exact sign-flip p(modes better) = 0.71
+
+D. Observation and forecast horizons (median over cells)
+  Kirkaldy NMC: observed 7 check-ups, forecast 6; observation covers 50% of the test; fade at end of observation 10.8 %, at end of test 18.0 %
+  Wheeler LFP: observed 6 check-ups, forecast 33; observation covers 14% of the test; fade at end of observation 10.8 %, at end of test 45.9 %
+  Michigan NMC: observed 6 check-ups, forecast 6; observation covers 37% of the test; fade at end of observation 12.0 %, at end of test 25.7 %

@@ -1,0 +1,192 @@
+GIC-NMC532       LLI      fits ok 21/26, rmse 8.7 mV, R -0.096..0.300 | max |err| (truth<=10%): LLI 1.7, LAM_PE 6.7, LAM_NE 4.2 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  3.6/ 0.0/ 0.0  est   2.8/  2.3/  3.2  (LLI per cell cap   2.9)  R 0.300
+    level  24.0  truth  7.2/ 0.0/ 0.0  est   5.9/  4.9/  4.2  (LLI per cell cap   6.1)  R 0.282
+    level  36.0  truth 10.8/ 0.0/ 0.0  est   9.0/  7.7/  3.9  (LLI per cell cap   9.4)  R 0.242
+    level  48.0  truth 14.4/ 0.0/ 0.0  est  12.3/ 10.9/  2.2  (LLI per cell cap  12.9)  R 0.191
+    level  60.0  truth 18.0/ 0.0/ 0.0  est  16.0/ 15.1/-14.6  (LLI per cell cap  16.7)  R 0.111
+    level  72.0  truth 21.6/ 0.0/ 0.0  est  19.1/ 18.1/-16.1  (LLI per cell cap  20.0)  R 0.050
+    level  84.0  truth 25.2/ 0.0/ 0.0  est  21.9/ 20.9/-20.8  (LLI per cell cap  22.9)  R -0.026  [fails rule]
+    level  96.0  truth 28.8/ 0.0/ 0.0  est  24.9/ 23.8/-21.8  (LLI per cell cap  26.1)  R -0.096  [fails rule]
+GIC-NMC532       LAMPE    fits ok 3/26, rmse 29.1 mV, R 0.096..0.300 | max |err| (truth<=10%): LLI 7.0, LAM_PE 3.5, LAM_NE 57.6 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  0.0/ 3.6/ 0.0  est   2.8/  2.8/-30.7  (LLI per cell cap   3.0)  R 0.300  [fails rule]
+    level  24.0  truth  0.0/ 7.2/ 0.0  est   5.0/  4.4/-53.0  (LLI per cell cap   5.2)  R 0.300  [fails rule]
+    level  36.0  truth  0.0/10.8/ 0.0  est   8.1/  7.1/-55.9  (LLI per cell cap   8.5)  R 0.287  [fails rule]
+    level  48.0  truth  0.0/14.4/ 0.0  est  11.4/ 10.2/-53.2  (LLI per cell cap  11.9)  R 0.249  [fails rule]
+    level  60.0  truth  0.0/18.0/ 0.0  est  14.6/ 13.5/-50.5  (LLI per cell cap  15.3)  R 0.228  [fails rule]
+    level  72.0  truth  0.0/21.6/ 0.0  est  17.7/ 16.7/-55.7  (LLI per cell cap  18.5)  R 0.190  [fails rule]
+    level  84.0  truth  0.0/25.2/ 0.0  est  21.2/ 20.5/-55.0  (LLI per cell cap  22.2)  R 0.150  [fails rule]
+    level  96.0  truth  0.0/28.8/ 0.0  est  24.8/ 23.9/-58.4  (LLI per cell cap  25.9)  R 0.104  [fails rule]
+GIC-NMC532       LAMLiPE  fits ok 26/26, rmse 11.6 mV, R 0.300..0.300 | max |err| (truth<=10%): LLI 0.5, LAM_PE 0.5, LAM_NE 3.5 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  3.6/ 3.6/ 0.0  est   3.8/  3.8/  1.5  (LLI per cell cap   4.0)  R 0.300
+    level  24.0  truth  7.2/ 7.2/ 0.0  est   7.6/  7.6/  2.8  (LLI per cell cap   8.0)  R 0.300
+    level  36.0  truth 10.8/10.8/ 0.0  est  11.4/ 11.5/  4.4  (LLI per cell cap  11.9)  R 0.300
+    level  48.0  truth 14.4/14.4/ 0.0  est  15.2/ 15.3/  5.6  (LLI per cell cap  15.9)  R 0.300
+    level  60.0  truth 18.0/18.0/ 0.0  est  19.0/ 19.0/  6.4  (LLI per cell cap  19.9)  R 0.300
+    level  72.0  truth 21.6/21.6/ 0.0  est  22.8/ 22.8/  7.1  (LLI per cell cap  23.8)  R 0.300
+    level  84.0  truth 25.2/25.2/ 0.0  est  26.6/ 26.7/  8.6  (LLI per cell cap  27.8)  R 0.300
+    level  96.0  truth 28.8/28.8/ 0.0  est  30.4/ 30.5/  9.5  (LLI per cell cap  31.8)  R 0.300
+GIC-NMC532       LAMNE    fits ok 19/26, rmse 14.7 mV, R 0.234..0.300 | max |err| (truth<=10%): LLI 0.2, LAM_PE 0.3, LAM_NE 5.5 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  0.0/ 0.0/ 3.6  est  -0.1/ -0.1/  1.8  (LLI per cell cap  -0.1)  R 0.300
+    level  24.0  truth  0.0/ 0.0/ 7.2  est  -0.1/ -0.2/  3.5  (LLI per cell cap  -0.1)  R 0.300
+    level  36.0  truth  0.0/ 0.0/10.8  est  -0.2/ -0.3/  4.9  (LLI per cell cap  -0.2)  R 0.300
+    level  48.0  truth  0.0/ 0.0/14.4  est  -0.3/ -0.4/  6.0  (LLI per cell cap  -0.3)  R 0.300
+    level  60.0  truth  0.0/ 0.0/18.0  est  -0.3/ -0.4/  6.3  (LLI per cell cap  -0.3)  R 0.300
+    level  72.0  truth  0.0/ 0.0/21.6  est   1.0/  1.3/-29.4  (LLI per cell cap   1.1)  R 0.262
+    level  84.0  truth  0.0/ 0.0/25.2  est   1.6/  2.0/-24.2  (LLI per cell cap   1.7)  R 0.259  [fails rule]
+    level  96.0  truth  0.0/ 0.0/28.8  est   1.7/  1.9/-18.6  (LLI per cell cap   1.8)  R 0.240  [fails rule]
+GIC-NMC532       LAMliNE  fits ok 22/26, rmse 9.8 mV, R -0.100..0.300 | max |err| (truth<=10%): LLI 1.7, LAM_PE 6.6, LAM_NE 2.8 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  3.6/ 0.0/ 3.6  est   2.7/  2.3/  5.7  (LLI per cell cap   2.9)  R 0.300
+    level  24.0  truth  7.2/ 0.0/ 7.2  est   5.8/  4.7/  9.6  (LLI per cell cap   6.1)  R 0.282
+    level  36.0  truth 10.8/ 0.0/10.8  est   9.0/  7.6/ 13.4  (LLI per cell cap   9.4)  R 0.241
+    level  48.0  truth 14.4/ 0.0/14.4  est  12.3/ 10.7/ 17.1  (LLI per cell cap  12.9)  R 0.197
+    level  60.0  truth 18.0/ 0.0/18.0  est  15.8/ 13.9/ 20.9  (LLI per cell cap  16.6)  R 0.152
+    level  72.0  truth 21.6/ 0.0/21.6  est  19.3/ 17.1/ 24.7  (LLI per cell cap  20.2)  R 0.104
+    level  84.0  truth 25.2/ 0.0/25.2  est  22.8/ 21.1/ -6.1  (LLI per cell cap  23.8)  R -0.033  [fails rule]
+    level  96.0  truth 28.8/ 0.0/28.8  est  26.3/ 24.4/ -2.1  (LLI per cell cap  27.5)  R -0.093  [fails rule]
+GIC-NMC532       RDFPE    fits ok 7/26, rmse 22.8 mV, R 0.209..0.300 | max |err| (truth<=10%): LLI 12.5, LAM_PE 11.7, LAM_NE 59.2 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  0.0/ 0.0/ 0.0  est   4.1/  3.6/-32.6  (LLI per cell cap   4.3)  R 0.300  [fails rule]
+    level  24.0  truth  0.0/ 0.0/ 0.0  est   5.9/  4.9/-47.3  (LLI per cell cap   6.2)  R 0.281  [fails rule]
+    level  36.0  truth  0.0/ 0.0/ 0.0  est   7.1/  6.1/-50.0  (LLI per cell cap   7.5)  R 0.258  [fails rule]
+    level  48.0  truth  0.0/ 0.0/ 0.0  est   8.5/  7.4/-50.8  (LLI per cell cap   8.9)  R 0.237  [fails rule]
+    level  60.0  truth  0.0/ 0.0/ 0.0  est   9.5/  8.4/-54.3  (LLI per cell cap  10.0)  R 0.220  [fails rule]
+    level  72.0  truth  0.0/ 0.0/ 0.0  est  10.4/  9.6/-55.3  (LLI per cell cap  10.9)  R 0.214  [fails rule]
+    level  84.0  truth  0.0/ 0.0/ 0.0  est  11.2/ 10.4/-58.5  (LLI per cell cap  11.8)  R 0.209
+    level  96.0  truth  0.0/ 0.0/ 0.0  est  12.3/ 11.3/-58.3  (LLI per cell cap  12.8)  R 0.219
+GIC-NMC532       RDFNE    fits ok 26/26, rmse 9.8 mV, R 0.300..0.300 | max |err| (truth<=10%): LLI 1.2, LAM_PE 1.1, LAM_NE 9.3 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.1/ -3.5  (LLI per cell cap   0.0)  R 0.300
+    level  24.0  truth  0.0/ 0.0/ 0.0  est   0.3/  0.4/ -4.2  (LLI per cell cap   0.3)  R 0.300
+    level  36.0  truth  0.0/ 0.0/ 0.0  est   0.6/  0.6/ -5.1  (LLI per cell cap   0.6)  R 0.300
+    level  48.0  truth  0.0/ 0.0/ 0.0  est   0.7/  0.8/ -5.8  (LLI per cell cap   0.8)  R 0.300
+    level  60.0  truth  0.0/ 0.0/ 0.0  est   0.9/  0.8/ -7.1  (LLI per cell cap   0.9)  R 0.300
+    level  72.0  truth  0.0/ 0.0/ 0.0  est   1.0/  1.0/ -7.5  (LLI per cell cap   1.1)  R 0.300
+    level  84.0  truth  0.0/ 0.0/ 0.0  est   1.1/  1.0/ -8.4  (LLI per cell cap   1.1)  R 0.300
+    level  96.0  truth  0.0/ 0.0/ 0.0  est   1.2/  1.1/ -8.7  (LLI per cell cap   1.2)  R 0.300
+GIC-NMC532       ORINE    fits ok 20/26, rmse 16.9 mV, R 0.300..0.300 | max |err| (truth<=10%): LLI 2.1, LAM_PE 0.7, LAM_NE 59.9 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  12.0  truth  0.0/ 0.0/ 0.0  est  -0.3/ -0.2/ -2.3  (LLI per cell cap  -0.4)  R 0.300
+    level  24.0  truth  0.0/ 0.0/ 0.0  est  -0.7/ -0.5/ -5.1  (LLI per cell cap  -0.7)  R 0.300
+    level  36.0  truth  0.0/ 0.0/ 0.0  est  -1.0/ -0.6/ -7.4  (LLI per cell cap  -1.0)  R 0.300
+    level  48.0  truth  0.0/ 0.0/ 0.0  est  -1.2/ -0.7/-12.3  (LLI per cell cap  -1.3)  R 0.300
+    level  60.0  truth  0.0/ 0.0/ 0.0  est  -0.6/  0.4/-35.3  (LLI per cell cap  -0.6)  R 0.300
+    level  72.0  truth  0.0/ 0.0/ 0.0  est  -1.1/  0.4/-49.8  (LLI per cell cap  -1.1)  R 0.300
+    level  84.0  truth  0.0/ 0.0/ 0.0  est  -1.6/ -0.0/-59.9  (LLI per cell cap  -1.7)  R 0.300  [fails rule]
+    level  96.0  truth  0.0/ 0.0/ 0.0  est  -1.9/ -0.3/-59.9  (LLI per cell cap  -2.0)  R 0.300  [fails rule]
+GIC-NMC532       Example  fits ok 5/5, rmse 9.1 mV, R 0.265..0.300 | max |err| (truth<=10%): LLI 0.6, LAM_PE 1.6, LAM_NE 1.1 pp -> PASS
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.300
+    level  25.0  truth  3.8/ 2.5/ 2.5  est   3.5/  3.3/  3.4  (LLI per cell cap   3.7)  R 0.299
+    level  50.0  truth  7.5/ 5.0/ 5.0  est   6.9/  6.6/  6.1  (LLI per cell cap   7.2)  R 0.287
+    level  75.0  truth 11.2/ 7.5/ 7.5  est  10.4/ 10.0/  8.4  (LLI per cell cap  10.8)  R 0.276
+    level 100.0  truth 15.0/10.0/10.0  est  13.9/ 13.4/ 10.6  (LLI per cell cap  14.4)  R 0.265
+(GIC,Si)-NMC811  LLI      fits ok 26/26, rmse 18.0 mV, R 0.054..0.191 | max |err| (truth<=10%): LLI 1.6, LAM_PE 0.6, LAM_NE 13.2 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  3.6/ 0.0/ 0.0  est   3.0/ -0.5/  6.5  (LLI per cell cap   4.3)  R 0.143
+    level  24.0  truth  7.2/ 0.0/ 0.0  est   5.9/ -0.6/ 10.9  (LLI per cell cap   8.6)  R 0.172
+    level  36.0  truth 10.8/ 0.0/ 0.0  est   9.0/ -0.2/ 14.7  (LLI per cell cap  13.0)  R 0.189
+    level  48.0  truth 14.4/ 0.0/ 0.0  est  12.1/  0.6/ 17.3  (LLI per cell cap  17.5)  R 0.189
+    level  60.0  truth 18.0/ 0.0/ 0.0  est  14.1/  1.9/  6.9  (LLI per cell cap  20.3)  R 0.059
+    level  72.0  truth 21.6/ 0.0/ 0.0  est  17.5/  2.8/ 10.4  (LLI per cell cap  25.2)  R 0.081
+    level  84.0  truth 25.2/ 0.0/ 0.0  est  20.9/  3.7/ 14.2  (LLI per cell cap  30.2)  R 0.109
+    level  96.0  truth 28.8/ 0.0/ 0.0  est  24.4/  5.0/ 17.6  (LLI per cell cap  35.2)  R 0.131
+(GIC,Si)-NMC811  LAMPE    fits ok 7/26, rmse 20.2 mV, R -0.073..0.248 | max |err| (truth<=10%): LLI 4.5, LAM_PE 3.3, LAM_NE 17.4 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 3.6/ 0.0  est   0.2/  6.7/-17.2  (LLI per cell cap   0.4)  R -0.073  [fails rule]
+    level  24.0  truth  0.0/ 7.2/ 0.0  est   1.8/  9.8/-15.8  (LLI per cell cap   2.6)  R -0.061  [fails rule]
+    level  36.0  truth  0.0/10.8/ 0.0  est   7.3/ 11.3/ 25.8  (LLI per cell cap  10.5)  R 0.216
+    level  48.0  truth  0.0/14.4/ 0.0  est  10.1/ 12.5/ 32.1  (LLI per cell cap  14.6)  R 0.230
+    level  60.0  truth  0.0/18.0/ 0.0  est  12.9/ 15.2/ 34.4  (LLI per cell cap  18.7)  R 0.233  [fails rule]
+    level  72.0  truth  0.0/21.6/ 0.0  est  16.2/ 19.0/ 36.6  (LLI per cell cap  23.4)  R 0.234  [fails rule]
+    level  84.0  truth  0.0/25.2/ 0.0  est  19.6/ 22.1/ 39.2  (LLI per cell cap  28.2)  R 0.238  [fails rule]
+    level  96.0  truth  0.0/28.8/ 0.0  est  23.0/ 25.3/ 41.9  (LLI per cell cap  33.2)  R 0.246  [fails rule]
+(GIC,Si)-NMC811  LAMLiPE  fits ok 17/26, rmse 14.8 mV, R -0.058..0.223 | max |err| (truth<=10%): LLI 0.4, LAM_PE 3.7, LAM_NE 9.9 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  3.6/ 3.6/ 0.0  est   3.9/  4.1/  2.8  (LLI per cell cap   5.6)  R 0.108
+    level  24.0  truth  7.2/ 7.2/ 0.0  est   7.0/ 10.6/ -8.4  (LLI per cell cap  10.2)  R -0.052  [fails rule]
+    level  36.0  truth 10.8/10.8/ 0.0  est  11.3/ 14.8/ -4.3  (LLI per cell cap  16.3)  R -0.035  [fails rule]
+    level  48.0  truth 14.4/14.4/ 0.0  est  15.6/ 18.9/ -0.2  (LLI per cell cap  22.5)  R -0.012  [fails rule]
+    level  60.0  truth 18.0/18.0/ 0.0  est  19.8/ 22.9/  4.0  (LLI per cell cap  28.5)  R 0.014
+    level  72.0  truth 21.6/21.6/ 0.0  est  23.9/ 26.6/  7.7  (LLI per cell cap  34.5)  R 0.050
+    level  84.0  truth 25.2/25.2/ 0.0  est  28.0/ 29.4/ 10.3  (LLI per cell cap  40.4)  R 0.112
+    level  96.0  truth 28.8/28.8/ 0.0  est  30.0/ 26.8/ -3.1  (LLI per cell cap  43.3)  R 0.219
+(GIC,Si)-NMC811  LAMGIC   fits ok 11/26, rmse 17.5 mV, R -0.100..0.112 | max |err| (truth<=10%): LLI 3.3, LAM_PE 4.7, LAM_NE 11.3 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 0.0/ 3.6  est   1.0/  1.5/ -1.1  (LLI per cell cap   1.5)  R 0.103
+    level  24.0  truth  0.0/ 0.0/ 7.2  est   2.6/  3.5/ -1.4  (LLI per cell cap   3.7)  R 0.111
+    level  36.0  truth  0.0/ 0.0/10.8  est   3.5/  5.2/ -1.7  (LLI per cell cap   5.1)  R 0.099
+    level  48.0  truth  0.0/ 0.0/14.4  est   3.3/ 10.0/ -4.1  (LLI per cell cap   4.8)  R -0.100  [fails rule]
+    level  60.0  truth  0.0/ 0.0/18.0  est   3.7/ 10.5/ -0.8  (LLI per cell cap   5.4)  R -0.100  [fails rule]
+    level  72.0  truth  0.0/ 0.0/21.6  est   4.2/ 11.1/  2.2  (LLI per cell cap   6.1)  R -0.100  [fails rule]
+    level  84.0  truth  0.0/ 0.0/25.2  est   4.8/ 11.6/  5.1  (LLI per cell cap   6.9)  R -0.100  [fails rule]
+    level  96.0  truth  0.0/ 0.0/28.8  est   5.3/ 12.0/  8.1  (LLI per cell cap   7.6)  R -0.100  [fails rule]
+(GIC,Si)-NMC811  LAMliGIC fits ok 20/26, rmse 18.9 mV, R 0.029..0.196 | max |err| (truth<=10%): LLI 1.4, LAM_PE 0.5, LAM_NE 2.7 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  3.2/ 0.0/ 3.6  est   2.7/ -0.2/  5.6  (LLI per cell cap   3.9)  R 0.131
+    level  24.0  truth  6.3/ 0.0/ 7.2  est   5.3/ -0.5/  9.9  (LLI per cell cap   7.7)  R 0.151
+    level  36.0  truth  9.5/ 0.0/10.8  est   7.9/ -0.6/ 13.2  (LLI per cell cap  11.4)  R 0.166
+    level  48.0  truth 12.7/ 0.0/14.4  est  10.5/ -0.6/ 16.8  (LLI per cell cap  15.2)  R 0.181
+    level  60.0  truth 15.8/ 0.0/18.0  est  13.3/ -0.4/ 21.2  (LLI per cell cap  19.2)  R 0.196
+    level  72.0  truth 19.0/ 0.0/21.6  est  14.5/  0.1/  6.3  (LLI per cell cap  20.9)  R 0.043
+    level  84.0  truth 22.2/ 0.0/25.2  est  17.3/  0.8/ 10.7  (LLI per cell cap  24.9)  R 0.040  [fails rule]
+    level  96.0  truth 25.3/ 0.0/28.8  est  20.1/  2.0/ 14.5  (LLI per cell cap  29.0)  R 0.032  [fails rule]
+(GIC,Si)-NMC811  RDFNE    fits ok 26/26, rmse 11.8 mV, R 0.104..0.160 | max |err| (truth<=10%): LLI 0.3, LAM_PE 0.3, LAM_NE 3.9 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 0.0/ 0.0  est   0.0/ -0.2/  3.1  (LLI per cell cap   0.0)  R 0.156
+    level  24.0  truth  0.0/ 0.0/ 0.0  est   0.0/ -0.2/  3.6  (LLI per cell cap   0.0)  R 0.158
+    level  36.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.3/  3.8  (LLI per cell cap  -0.1)  R 0.160
+    level  48.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.3/  3.3  (LLI per cell cap  -0.1)  R 0.154
+    level  60.0  truth  0.0/ 0.0/ 0.0  est  -0.2/ -0.3/  2.6  (LLI per cell cap  -0.3)  R 0.146
+    level  72.0  truth  0.0/ 0.0/ 0.0  est  -0.2/ -0.2/  2.4  (LLI per cell cap  -0.3)  R 0.141
+    level  84.0  truth  0.0/ 0.0/ 0.0  est  -0.2/ -0.1/  1.8  (LLI per cell cap  -0.3)  R 0.133
+    level  96.0  truth  0.0/ 0.0/ 0.0  est  -0.1/  0.2/  1.1  (LLI per cell cap  -0.2)  R 0.125
+(GIC,Si)-NMC811  LAMSi    fits ok 26/26, rmse 14.2 mV, R 0.104..0.139 | max |err| (truth<=10%): LLI 1.1, LAM_PE 0.8, LAM_NE 6.3 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 0.0/ 0.0  est   0.0/ -0.2/  0.8  (LLI per cell cap   0.0)  R 0.108
+    level  24.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.5/  1.6  (LLI per cell cap  -0.1)  R 0.109
+    level  36.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.8/  2.3  (LLI per cell cap  -0.2)  R 0.110
+    level  48.0  truth  0.0/ 0.0/ 0.0  est   0.1/ -0.6/  2.9  (LLI per cell cap   0.2)  R 0.115
+    level  60.0  truth  0.0/ 0.0/ 0.0  est   0.4/ -0.5/  3.5  (LLI per cell cap   0.5)  R 0.120
+    level  72.0  truth  0.0/ 0.0/ 0.0  est   0.6/ -0.4/  4.1  (LLI per cell cap   0.9)  R 0.124
+    level  84.0  truth  0.0/ 0.0/ 0.0  est   0.8/ -0.3/  4.7  (LLI per cell cap   1.2)  R 0.129
+    level  96.0  truth  0.0/ 0.0/ 0.0  est   1.0/ -0.3/  5.9  (LLI per cell cap   1.4)  R 0.136
+(GIC,Si)-NMC811  LAMliSi  fits ok 26/26, rmse 13.5 mV, R 0.104..0.140 | max |err| (truth<=10%): LLI 0.7, LAM_PE 1.3, LAM_NE 13.4 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.4/ 0.0/ 0.0  est   0.5/ -0.1/  1.8  (LLI per cell cap   0.7)  R 0.114
+    level  24.0  truth  0.9/ 0.0/ 0.0  est   0.8/ -0.4/  3.0  (LLI per cell cap   1.1)  R 0.117
+    level  36.0  truth  1.3/ 0.0/ 0.0  est   1.1/ -0.6/  4.5  (LLI per cell cap   1.6)  R 0.122
+    level  48.0  truth  1.7/ 0.0/ 0.0  est   1.4/ -0.8/  6.0  (LLI per cell cap   2.0)  R 0.126
+    level  60.0  truth  2.2/ 0.0/ 0.0  est   1.8/ -1.0/  7.5  (LLI per cell cap   2.6)  R 0.129
+    level  72.0  truth  2.6/ 0.0/ 0.0  est   2.1/ -1.1/  8.6  (LLI per cell cap   3.0)  R 0.131
+    level  84.0  truth  3.0/ 0.0/ 0.0  est   2.4/ -1.2/ 10.1  (LLI per cell cap   3.5)  R 0.133
+    level  96.0  truth  3.5/ 0.0/ 0.0  est   2.8/ -1.3/ 12.3  (LLI per cell cap   4.0)  R 0.138
+(GIC,Si)-NMC811  RDFPE    fits ok 19/26, rmse 12.5 mV, R -0.064..0.215 | max |err| (truth<=10%): LLI 7.5, LAM_PE 8.7, LAM_NE 29.1 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 0.0/ 0.0  est  -0.5/  4.8/-16.3  (LLI per cell cap  -0.7)  R -0.063  [fails rule]
+    level  24.0  truth  0.0/ 0.0/ 0.0  est   0.0/  6.1/-15.3  (LLI per cell cap   0.1)  R -0.056  [fails rule]
+    level  36.0  truth  0.0/ 0.0/ 0.0  est   1.6/  4.7/ -1.0  (LLI per cell cap   2.4)  R 0.095
+    level  48.0  truth  0.0/ 0.0/ 0.0  est   2.2/  4.8/  1.4  (LLI per cell cap   3.2)  R 0.108
+    level  60.0  truth  0.0/ 0.0/ 0.0  est   2.9/  4.9/  4.2  (LLI per cell cap   4.2)  R 0.118
+    level  72.0  truth  0.0/ 0.0/ 0.0  est   5.1/  7.0/ 19.7  (LLI per cell cap   7.4)  R 0.186
+    level  84.0  truth  0.0/ 0.0/ 0.0  est   6.4/  8.0/ 25.4  (LLI per cell cap   9.2)  R 0.208
+    level  96.0  truth  0.0/ 0.0/ 0.0  est   7.4/  8.7/ 28.5  (LLI per cell cap  10.7)  R 0.215
+(GIC,Si)-NMC811  ORINE    fits ok 26/26, rmse 13.6 mV, R 0.104..0.221 | max |err| (truth<=10%): LLI 0.2, LAM_PE 0.7, LAM_NE 3.0 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.104
+    level  12.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.2/  0.2  (LLI per cell cap  -0.2)  R 0.117
+    level  24.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.3/  0.8  (LLI per cell cap  -0.1)  R 0.133
+    level  36.0  truth  0.0/ 0.0/ 0.0  est  -0.0/ -0.3/  1.3  (LLI per cell cap  -0.0)  R 0.149
+    level  48.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.4/  1.5  (LLI per cell cap  -0.2)  R 0.162
+    level  60.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.5/  1.9  (LLI per cell cap  -0.1)  R 0.177
+    level  72.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.5/  2.3  (LLI per cell cap  -0.1)  R 0.190
+    level  84.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.6/  2.7  (LLI per cell cap  -0.1)  R 0.204
+    level  96.0  truth  0.0/ 0.0/ 0.0  est  -0.1/ -0.7/  3.0  (LLI per cell cap  -0.2)  R 0.218
+(GIC,Si)-NMC811  Example  fits ok 5/5, rmse 15.7 mV, R 0.074..0.118 | max |err| (truth<=10%): LLI 0.1, LAM_PE 0.3, LAM_NE 3.7 pp -> FAIL
+    level   0.0  truth  0.0/ 0.0/ 0.0  est   0.0/  0.0/  0.0  (LLI per cell cap   0.0)  R 0.074
+    level  25.0  truth  3.8/ 2.5/ 2.5  est   3.8/  2.8/  4.5  (LLI per cell cap   5.5)  R 0.089
+    level  50.0  truth  7.5/ 5.0/ 5.0  est   7.6/  5.3/  8.7  (LLI per cell cap  11.0)  R 0.104
+    level  75.0  truth 11.2/ 7.5/ 7.5  est  11.4/  8.1/ 12.5  (LLI per cell cap  16.5)  R 0.118
+    level 100.0  truth 15.0/10.0/10.0  est  15.1/ 11.1/ 14.7  (LLI per cell cap  21.8)  R 0.113

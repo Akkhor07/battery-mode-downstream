@@ -1,0 +1,16 @@
+Half-cell model with reference modes vs measured SOH (all check-ups)
+  nmc: n=511, RMSE 2.94 pp, bias +0.00 pp, R^2 0.874
+  lfp: n=820, RMSE 0.88 pp, bias -0.50 pp, R^2 0.998
+
+Yu-style forecast (modes extrapolated separately -> half-cell capacity), SOH RMSE [pp] over later check-ups; best plausible gain vs capacity (one-sided 95 %)
+  nmc (40 cells): capacity 3.18
+    modes_pinn_lm     4.36  change   +37%  best gain  0.0%  -> no useful gain
+    modes_ref         3.47  change    +9%  best gain  2.5%  -> no useful gain
+  lfp (20 cells): capacity 6.27
+    modes_pinn_enc   31.31  change  +400%  best gain  0.0%  -> no useful gain
+    modes_ref         8.72  change   +39%  best gain  0.0%  -> no useful gain
+
+Positive control: 60 synthetic NMC cells (half-cell truth), observe RPT 0-6, forecast RPT 7-15; 26 cells with a late knee (fade rate x2). SOH RMSE [pp]
+  all cells  (n=60) capacity  3.30 | modes sd 0.000:  2.35 (-29%) | modes sd 0.005:  2.88 (-13%) | modes sd 0.010:  3.43 (+4%) | modes sd 0.020:  4.44 (+35%) | modes sd 0.040: 10.23 (+209%)
+  knee cells (n=26) capacity  5.64 | modes sd 0.000:  4.89 (-13%) | modes sd 0.005:  5.24 (-7%) | modes sd 0.010:  4.85 (-14%) | modes sd 0.020:  5.12 (-9%) | modes sd 0.040:  9.77 (+73%)
+  no knee    (n=34) capacity  1.52 | modes sd 0.000:  0.40 (-73%) | modes sd 0.005:  1.08 (-29%) | modes sd 0.010:  2.35 (+55%) | modes sd 0.020:  3.92 (+159%) | modes sd 0.040: 10.58 (+598%)
